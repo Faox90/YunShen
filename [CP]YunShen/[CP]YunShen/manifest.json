@@ -1,0 +1,13 @@
+{
+  "Name": "[CP]YunShen",
+  "Author": "yuki9977",
+  "Description": "NPC YunShen",
+  "Version": "1.0.1",
+  "UniqueID": "yuki9977.YunShen",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [
+    "Nexus:24400"
+  ]
+}

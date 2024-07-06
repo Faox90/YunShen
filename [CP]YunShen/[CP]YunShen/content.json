@@ -1,0 +1,449 @@
+{
+    "Format": "2.0.0",
+    "CustomLocations": [
+        {
+            "Name": "yuki9977.YunShen_YunShenRoom",
+            "FromMapFile": "assets/maps/YunShenRoom.tmx"
+        }
+    ],
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "YunShen": {
+                    "DisplayName": "YunShen",
+                    "BirthSeason": 1,
+                    "BirthDay": 15,
+                    "HomeRegion": "Town",
+                    "Language": 0,
+                    "Gender": 1,
+                    "Age": 0,
+                    "Manner": "1",
+                    "SocialAnxiety": "2",
+                    "Optimism": "1",
+                    "IsDarkSkinned": false,
+                    "CanBeRomanced": true,
+                    "LoveInterest": "",
+                    "Calendar": 0,
+                    "SocialTab": 0,
+                    "SocializeConditions": null,
+                    "CanVisitIslandCondition": null,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "EndSlideShow": 1,
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "yuki9977.YunShen_YunShenRoom",
+                            "Tile": {
+                                "X": 7,
+                                "Y": 4
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true,
+                    "HiddenProfileEmoteSound": null,
+                    "HiddenProfileEmoteDuration": -1,
+                    "HiddenProfileEmoteStartFrame": 16,
+                    "HiddenProfileEmoteFrameCount": 4,
+                    "HiddenProfileEmoteFrameDuration": 200,
+                    "FestivalVanillaActorIndex": 24400,
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "YunShen": "Tell me, what are you going to give me? I really don't understand why you are so obsessed with giving gifts to people everywhere.#$b#…Why are you giving me this? I can't refuse it, right? I think I really need this, thank you.$s/64 283 420 638 815/Oh, it seems you are very experienced and know what kind of gift will not annoy people. Well... then thank you for the gift./22 103 119 286 287 288 305 769/I don’t like this, but you gave it to me even though you knew I didn’t like it?/24 190 227 228 264/...Are you trying to insult me?/72 78 196 302 303 304 346 348 459 609 733 873/Give it to me? You want to give it to someone like me? ...You're really weird. I'll take it./-4 -7 -12 -80 152 153 167 423/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "YunShen": "Although you have sent it many times, I like you to express your affection to me./64 283 420 638 815/Hmm, it seems you haven't forgotten what I like.#$b#...Well, I mean thank you for remembering these insignificant little things.$l/22 103 119 286 287 288 305 769/OK, I'll keep it./24 190 227 228 264/...Why did you give me this?/78 196 302 303 304 346 348 459 609 733 873/Gift? You really like this. I'll accept it. Thank you./-4 -7 -12 -80 72 152 153 167 423/"
+            },
+            "When": {
+                "Relationship:YunShen": "Engaged, Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "yuki9977.YunShen_YunShenRoom": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/yuki9977.YunShen_YunShenRoom"
+                    },
+                    "FormerLocationNames": [
+                        "Custom_YunShen_YunShenRoom"
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/YunShenDoor",
+            "FromFile": "assets/maps/YunShenHouse.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/YunShenDoor",
+            "FromFile": "assets/maps/YunShenDoor.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/furniture",
+            "FromFile": "assets/maps/furniture.png"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mine",
+            "FromFile": "assets/maps/YunShenHouse.tmx",
+            "ToArea": {
+                "X": 46,
+                "Y": 7,
+                "Width": 1,
+                "Height": 2
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/yuki9977.YunShen_YunShenRoom",
+            "AddWarps": [
+                "1 3 Mine 45 8"
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "YunShenRoom.0": "This picture gives you an uncomfortable feeling...",
+                "YunShenRoom.1": "The bear doll had some threads coming apart, and the cotton inside was exposed."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "YunShenRoom.1": "You have already repaired the unraveling part of the bear doll."
+            },
+            "When": {
+                "HasSeenEvent |contains=24400010": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Data/Events/yuki9977.YunShen_YunShenRoom",
+            "FromFile": "assets/Custom_Event/yuki9977.YunShen_YunShenRoom.xnb"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/festivals.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/events.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/NPCNames",
+            "Entries": {
+                "YunShen": "YunShen"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/YunShen",
+            "FromFile": "assets/images/portraits/YunShen.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/YunShen",
+            "FromFile": "assets/images/sprites/YunShen.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/YunShen_Beach",
+            "FromFile": "assets/images/sprites/YunShen_Beach.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/YunShen",
+            "FromFile": "assets/dialogue.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueYunShen",
+            "FromFile": "assets/marriageDialogue.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/YunShen",
+            "FromFile": "assets/schedule.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Strings/schedules/YunShen",
+            "FromFile": "assets/scheduleDialogue.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "YunShen_selfHurt": "24/24 24 24 24 25 25 25 25 25 24 24 24 24 24 25 25 25 25/25",
+                "YunShen_sit_up": "32/32/32",
+                "YunShen_sit_up_1": "21/21/21",
+                "YunShen_sit_down": "33/33/33"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "assets/Dialogue/rainy",
+            "Entries": {
+                "YunShen": "Humph, how rude, barging into someone else's urn wetly, making the floor wet. #$b#Wait, where are you going? $u#$b#…You don't have to go, the floor is already wet, and you can stay a little longer. Here, here's the towel."
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "YunShen0": "Uh uh, I've had enough, crying all the time, it doesn't feel good at all.$12#$b#So it's all your fault, you suddenly proposed to me without any preparation. Really, I hate you, why do you make me like you so much, you made me cry and laugh, and I look even more like a madman.$13",
+                "YunShen1": "I'd better pin up my bangs at the wedding, because you might ask me in surprise, Who are you?$h",
+                "YunShen2": "You actually teased me. Even I wouldn't wear a hooded wedding dress on such an important occasion!$u"
+            }
+        },
+        {
+            "LogName": "Extra Dialogue",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "ExtraDialogue_Mines_PlayerKilled_YunShen": "...I found you unconscious in the mine.#$b#You dare to be so reckless because someone always saves you, right?$h#$b#It's a pity that I saved you this time. I didn't have such sympathy for you. Next time, fall down where I can't see you.$h"
+            }
+        },
+        {
+            "LogName": "Extra Dialogue",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "ExtraDialogue_Mines_PlayerKilled_YunShen": "...I found you unconscious in the mine.#$b#If you want to die, you can tell me, no need to be so roundabout. I promise I can do it, and it will be quick and ruthless, and I will try my best to make your death painless.#$b#...Although I will blame you, because you left me alone, after all, if I am alone, I can only choose a more painful way to commit suicide.$h",
+                "ExtraDialogue_Spouse_MonstersInHouse_YunShen": "Monster? Ha, dear, you don't look very smart. After all, I won't tolerate them. If they get in my way, I will kill them all.$h"
+            },
+            "When": {
+                "Relationship:YunShen": "Married"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "Name": "YunShen",
+                "LovedTags": [
+                    "Sweet",
+                    "Candy"
+                ],
+                "LikedTags": [
+                    "Salty",
+                    "Cold"
+                ],
+                "DislikedTags": [
+                    "Fatty",
+                    "Healthy",
+                    "Burger"
+                ]
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "YunShen": {
+                    "NPCName": "YunShen",
+                    "Reactions": [
+                        {
+                            "Tag": "spring_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Ha, so you invited me to the cinema to watch cartoons? You are really funny.$h"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "As expected, this is the trend... Never mind, I didn't have any expectations for it in the first place."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I think you still retain some of your childishness. Although I don’t like it, it is undeniable that children need such ideal stories."
+                                }
+                            },
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "summer_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "This video game... was already very popular when I was in school, but I didn't expect that there would be a movie made about it now."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "The movie is pretty good.#$b#But I don't seem to like it? ...It's a secret, do you want to pay the price for knowing my secret?$h"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "fall_movie_0",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Horror movies, I’m actually not afraid of these, but it doesn’t hurt to watch one with you.$h"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "*staring at the screen*...#$b#%Yun Shen seemed to be watching very attentively, but was she really not afraid?"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "The movie was okay. I liked the feeling of my heart beating faster, like I was still alive... Strange, I clearly...$s#$b#%You can no longer hear what she is saying."
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "winter_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Well, the cinema is heated, so later we can..."
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%Yun Shen fell asleep without any worries."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Hmm~ Not bad, it's really comfortable to sleep here, you can invite me next time~$h"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Documentary... Do you know something? Otherwise, you wouldn't choose this kind of movie when you invite people to watch a movie, right? I really can't see through you."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "I don't know if you invited me because you knew I like watching it, but I really enjoyed the movie, so...thank you.$h"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "summer_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "...#$b#What's wrong@? It's time for us to go in, right?#$b#You don't want to play the claw machine again, do you? Childish--childish--$h"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "...#$b#%You saw Yun Shen's expression as if she wanted to laugh but was holding it back. Although you couldn't understand why she was unwilling to laugh openly, she must like this movie."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Phew, what a farce...though the movie itself is pretty good."
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "fall_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Well, the movie is about to start, what else do you want me to say?#$b#Don't tell me you're scared, you're one of the most powerful people in this town.$h"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Honestly, if neither of you is afraid of horror movies, it feels like something is missing.$h"
+                                }
+                            },
+                            "ID": "reaction_6"
+                        },
+                        {
+                            "Tag": "winter_movie_1",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "It's this movie? Well, you have good taste. This movie is really good and worth watching over and over again.$h"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%Yun Shen watched very attentively."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "How is it? Do you like it? I just said that this movie is very good.$h"
+                                }
+                            },
+                            "ID": "reaction_7"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

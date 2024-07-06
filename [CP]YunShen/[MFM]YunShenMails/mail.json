@@ -1,0 +1,125 @@
+[
+    {
+        "Id": "yunshenLetter1",
+        "GroupId": "YunShen.NoteFragments",
+        "Title": "? ?'s Notes Fragment 1",
+        "LetterBG": "YunShenLetterBG.png",
+        "WhichBG": 0,
+        "TextColor": -1,
+        "Text": "^Today, when I was eating hot and sour noodles, I had a runny nose because it was too spicy. After opening my backpack, I saw the pack of tissues, the tissues that a kind person gave me.^^On the day I ran away from home, I was crying weakly because I couldn't give up my feelings, and an older sister handed me a tissue of pity.^After the older sister handed me the tissue, she got off the bus. Because I was wearing a baseball cap that was deliberately pulled down, my tears were blurred, and I couldn't lift my head, I missed the older sister's face.^^Looking back now, based on my understanding of myself, I thought I would be angry at the time because I couldn't control myself and let my weakness be exposed to others. But surprisingly, I might have felt happy at the time. It was a very complicated emotion, surprised, happy, and a little awkward, and I was ashamed of myself for still being trapped by family affection.^^I clearly knew that I just needed to ignore those words, I clearly shouldn't expect him to change himself, and I clearly just needed to commit suicide bravely, but I was undoubtedly so weak.^It has always been like this. I can't do anything well, I don't do anything, and I complain about everything. I am undoubtedly a bad person.^But I am really tired. Even a simple command like breathing is difficult to execute. The huge rock on my chest has never been removed. I have been on the verge of collapse after being suppressed for several years. How did Sun Wukong survive those hundreds of years under the Five Finger Mountain?^^...",
+        "FriendshipConditions": [
+            {
+                "NpcName": "YunShen",
+                "FriendshipLevel": 4
+            }
+        ],
+        "EventsSeen": [
+            24400005
+        ]
+    },
+    {
+        "Id": "yunshenLetter2",
+        "GroupId": "YunShen.NoteFragments",
+        "Title": "? ?'s Notes Fragment 2",
+        "LetterBG": "YunShenLetterBG.png",
+        "WhichBG": 0,
+        "TextColor": -1,
+        "Text": "^…^^I am now silently thinking about all these things. Although I didn't cry, it seemed that something was flowing in my heart. Of course, I knew that it was the heart pumping blood. After all, the heart doesn't cry. However, I could actually feel that my energy was being lost.^Perhaps I am able to live until now because I am too strong? I laughed at myself. Otherwise, why could my energy be drawn away without dying? No matter how hot the body is, the blood still cannot be warmed, and the soul has no peace.^I am just like what my mother said. I am a cold-blooded person. The body is hot, but the inside is cold. This temperature difference makes me dizzy. Hot, cold, hot ... Whether in the past, present, or future, I always want to die. I have always been a waste without willpower. I have persisted in wanting to die for ten years, and I will continue to persist in it until the last moment before I am free.^^Ten years is just my rough estimate of the time. The real time may be longer than ten years... Well, in fact, I don’t remember when it started.^Since I didn’t want to live anymore, my memory has declined severely, my concentration can be said to be non-existent, and my emotions are as sensitive and dangerous as bombs.^^I am afraid, I hate, and I am desperate. Of course I know why I have become like this. I can only say that God is worthy of being God. He really knows what development I fear and hate the most in my heart -I have become a person with a personality like my father.^Although I don’t believe in any god, even if God may really exist, I can’t give my faith.^I know that people like my father will only selfishly hurt people around him, but I still become such a person. This is the most ridiculous joke for me.^^My nose felt sore when I thought of this, and my mind was like a paste, with sadness, resentment, and indifference occupying all my thinking ability.^^...",
+        "FriendshipConditions": [
+            {
+                "NpcName": "YunShen",
+                "FriendshipLevel": 4
+            }
+        ],
+        "EventsSeen": [
+            24400005
+        ],
+        "MailReceived": [
+            "yunshenLetter1"
+        ]
+    },
+    {
+        "Id": "yunshenLetter3",
+        "GroupId": "YunShen.NoteFragments",
+        "Title": "? ?'s Notes Fragment 3",
+        "LetterBG": "YunShenLetterBG.png",
+        "WhichBG": 0,
+        "TextColor": -1,
+        "Text": "^…^^I feel sad that I have become so rotten that I can’t have friends who match me.^^I am not worthy of my friends. I occasionally feel desperate when chatting with them. Why can I pretend to be indifferent and make friends with them and talk to them freely? I also mock, ridicule and urge them without shame. It is easier for me to say vicious words than to breathe.^Actually, I don't want to. I really want to apologize, but these are all excuses. I know that I am already a rotten person. I am no different from domestic abusers and perpetrators. I cry and shout that I don't want to, but in fact, my heart is already dirty.^^I feel resentful about my incompetence, uselessness and inaction.^^I knew from a young age that I had to study hard to get ahead. Now that I have become like this, I must take most of the responsibility... well, more than half of the responsibility, so I especially regret that I didn 't study hard in the past.^… No wonder! I even have trouble breathing. I suffer from insomnia for several hours every night. When I wake up in the morning, I can't move. For a few minutes to half an hour, I can only move my eyeballs. You expect me to study hard in this state? I didn't drop out of school, which is the result of my hard work.^I only hate why I didn't play to death when I was a child, stab myself to death with a knife, burn myself to death with a fever, or eat poison to death. How I want to go back to the past and strangle myself to death immediately, so that I don't have to suffer these pains, I won't be hurt by anyone, and I won't hurt anyone.^^I feel indifferent to myself who doesn't deserve sympathy.^^Weakness and shame are engraved in my bones. I look down on myself. Others' comments on me are like accusing and mocking me. I can't say that I am innocent for making malicious assumptions about others. Because of my negative emotions, I maliciously consume the kindness and gentleness of others. People like this are really the worst.^^...",
+        "FriendshipConditions": [
+            {
+                "NpcName": "YunShen",
+                "FriendshipLevel": 4
+            }
+        ],
+        "EventsSeen": [
+            24400005
+        ],
+        "MailReceived": [
+            "yunshenLetter2"
+        ]
+    },
+    {
+        "Id": "yunshenLetter4",
+        "GroupId": "YunShen.NoteFragments",
+        "Title": "? ?'s Notes Fragment 4",
+        "LetterBG": "YunShenLetterBG.png",
+        "WhichBG": 0,
+        "TextColor": -1,
+        "Text": "^…^^I can't say that I deserve sympathy. I don't love this world. Even though I know that this world has its beautiful side, I don't deserve to be satisfied. I am greedy and selfish. I think my heart is very strange. I can be satisfied by very small things, but in my whole life, there are only three events that make me feel that I am really satisfied.^^The first time, when I was a child, I was hospitalized for a month due to urticaria. One late night during that period, I had another attack. When I woke up, I could see my mother by my side. She kept comforting me until I fell asleep. I felt satisfied and touched at the moment before going to bed.^^The second time, when I was a child, my father bought a big bear doll to accompany me to sleep. I was very happy at that time, but I was not happy enough to feel satisfied. Since it belonged to me, it has been with me until one day before going to bed, I looked at it in the dark, then hugged it, hugged it tightly, I hugged it very hard, as if I wanted to rub it into my flesh and blood. I don't know how long it took, it should be only a few minutes, I let go of my hand, and I still remember that I was sweating all over because I was too strong.^^I said to the bear doll: I love you, thank you, always.^^Then I felt satisfied. Although others may think that this is my self-satisfaction, I am very sure that I was not saved by the words I said, but the bear doll gave me satisfaction. It accompanied me for countless crying nights.^^But the funny thing is that I imagined that if my father threw it away without my knowledge, what would my reaction be? The answer is no reaction. I would not even quarrel with my father for this. I think I would probably only become more desperate and desperate. That's all. I sighed that I am worthy of being me. I am really a bitch who does not deserve sympathy.^^The third time I felt satisfied was a few years later. The bear doll has been with me for many, many years, but because my sleeping posture has never been very good, the doll has been torn by me. Many places have broken threads, and cotton often falls out of those broken threads. Although I never thought of throwing it away, I didn't think about repairing it. I just let it remain as it is.^^Until one day when I came home from school, I was so tired that I lay down on the bed to rest. I found that my doll had been repaired. The thread on the doll was sewn up again. I hugged the doll tightly at that time. I even forgave my father a little. At that moment, I was satisfied and barely forgave my father.^^——If he didn't choose to continue to consume my little trust.^^...^^(You seem to know who these strange letters are from)",
+        "FriendshipConditions": [
+            {
+                "NpcName": "YunShen",
+                "FriendshipLevel": 6
+            }
+        ],
+        "EventsSeen": [
+            24400010
+        ],
+        "MailReceived": [
+            "yunshenLetter3"
+        ]
+    },
+    {
+        "Id": "yunshenLetter5",
+        "GroupId": "YunShen.NoteFragments",
+        "Title": "? ?'s Notes Fragment No. 5",
+        "LetterBG": "YunShenLetterBG.png",
+        "WhichBG": 0,
+        "TextColor": -1,
+        "Text": "^…^^Let's go back to the pack of tissues at the beginning. Now when I see this pack of tissues, a thought comes to my mind. What if I use this pack of tissues as a countdown to my death? Just like comparing tissues to the little girl's matches, let the tissues become the hope and countdown in my limited life. When the pack of tissues is all used up, I think my life will end.^^For me, such absurd thoughts in the eyes of ordinary people often appear in my mind. Yes, such thoughts have appeared many times in the past few years, so many times that I can die shallowly thousands of times, but I haven't died yet. Why? Because I am a weak waste! Even if I know the location of all the knives in my house, I still can't do it, and I don't even dare to hurt myself a few times.^^But I don't feel sorry for not daring to hurt myself. I only feel sorry for not daring to commit suicide, because in essence, I just want to escape, I don't want to feel pain, but how can there be no pain in life? So suicide is my ultimate goal, a good way to end the pain once and for all. I am afraid of death, look forward to death, desire death, and am obsessed with death.^^Death is like the story of the spider's thread to me.^^After my memory declines, it is difficult for words to leave a mark in my heart. Most of my current language skills are now supported by my literary skills in elementary school, because my mental health was still good in elementary school, and the knowledge at that time can still be remembered in my mind. Since middle school, even if I think that some sentences or works are well written, it is difficult to leave a mark in my memory, but the story of the spider's thread can be remembered by me , and I think of it from time to time in my mind. I think it may be that I like this story very much in my subconscious mind.^^Spider's thread, death is the spider's thread, representing my salvation. If I become lazy and fearful, resulting in my failure to implement the planned suicide, the spider thread will break, and I will fall back into the abyss and continue to suffer in this world. This is the story of the spider's thread that belongs to me.^^I used up one of the tissues last time to wipe away my weak tears, and now there are three tissues left.^^I had a runny nose because of the spicy food, and I wanted to use the second tissue to wipe it, but since I wanted to use it as a countdown to my death, would it be too casual for me to use the tissues for this reason? This thought probably only stayed in my mind for 0.2 seconds, and I quickly pulled out the tissue to wipe my nose.",
+        "FriendshipConditions": [
+            {
+                "NpcName": "YunShen",
+                "FriendshipLevel": 8
+            }
+        ],
+        "EventsSeen": [
+            24400015
+        ],
+        "MailReceived": [
+            "yunshenLetter4"
+        ]
+    },
+    {
+        "Id": "yunshenLetter6",
+        "GroupId": "YunShen.EventX",
+        "Title": "Letter from Yun Shen",
+        "LetterBG": "YunShenLetterBG.png",
+        "WhichBG": 0,
+        "TextColor": -1,
+        "Text": "^Dear @,^^I have something to say to you. When you are free, come to the Coal Mine Forest to find me before the sun sets.^^-Yun Shen",
+        "FriendshipConditions": [
+            {
+                "NpcName": "YunShen",
+                "FriendshipLevel": 10
+            }
+        ],
+        "EventsSeen": [
+            24400015
+        ],
+        "MailReceived": [
+            "yunshenLetter5"
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="1" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="6">
+ <tileset firstgid="1" name="YunShenHouse" tilewidth="16" tileheight="16" tilecount="2" columns="1">
+  <image source="YunShenHouse.png" width="16" height="32"/>
+ </tileset>
+ <layer id="1" name="Back" width="1" height="2">
+  <data encoding="csv">
+0,
+0
+</data>
+ </layer>
+ <layer id="3" name="Buildings" width="1" height="2">
+  <data encoding="csv">
+1,
+2
+</data>
+ </layer>
+ <layer id="5" name="Front" width="1" height="2">
+  <data encoding="csv">
+0,
+0
+</data>
+ </layer>
+ <layer id="7" name="AlwaysFront" width="1" height="2">
+  <data encoding="csv">
+0,
+0
+</data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="5" name="TileData" x="0" y="0" width="16" height="32">
+   <properties>
+    <property name="Action" value="Warp 1 4 yuki9977.YunShen_YunShenRoom"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Front"/>
+ <objectgroup id="8" name="AlwatsFront"/>
+</map>

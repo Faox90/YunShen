@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[MFM]YunShenMails",
+	"Author": "yuki9977",
+	"Version": "1.0.0",
+	"Description": "Adds custom mails for YunShen.",
+	"UniqueID": "yuki9977.YunShenMails",
+	"MinimumApiVersion": "3.8.0",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+        "MinimumVersion": "1.16.0-alpha"
+	}
+}

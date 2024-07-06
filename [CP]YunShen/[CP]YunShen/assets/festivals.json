@@ -1,0 +1,241 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "YunShen 16 96 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "YunShen 16 96 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "Entries": {
+                "YunShen": "You said you want to participate in the competition? Okay, go grab the prizes from those kids, it would be great if you could make them cry, and then have a bunch of people condemn you, that would be so much fun~$h",
+                "YunShen_y2": "I want to go home. Why is it always sunny during holidays?$s",
+                "YunShen_spouse": "Darling, don't you think it's appropriate to wear a bunny costume on this holiday? ... The kind that's a bit awkward.$h#$b#Who wears it? Of course you wear it!$h#$b#Ah~~? Why did you refuse? Can't you just pamper your dear wife? Satisfy me~ Satisfy me~Darling?$h",
+                "YunShen_spouse_y2": "My back and waist aches...#$b#Tsk, it's because I haven't been active for too long, it's not because of anything else, and please don't look at me and smile with that infuriating look anymore!$a"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "YunShen 9 39 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "YunShen 9 39 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "Entries": {
+                "YunShen": "I’m afraid that newcomers may not be able to invite anyone, but don’t worry, if you observe a little you will find that many people don’t dance, so it’s no big deal.",
+                "YunShen_y2": "Yo@, did you see someone you like? If you did, go and invite them. It would be a shame if someone else invited you away, right?$h",
+                "YunShen_spouse": "Boring festival. …You like this kind of festival? Well, this festival isn't that bad.",
+                "YunShen_spouse_y2": "Well, you are still as cute as ever! It's a pity that you are already mine, so others have no chance.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "YunShen 26 36 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "YunShen 26 36 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "Entries": {
+                "YunShen": "What ingredients are you going to put in there? If you forgot to bring any, just use this. Well… let me make it clear first, I'm not being nice, I just think it's unfair and stupid for you to buy it from Pierre.$h[268]",
+                "YunShen_y2": "Nothing happened last year that surprised me, and I think it will be the same this year.",
+                "YunShen_spouse": "Can I put red mushrooms in there? It must be possible, right?$h",
+                "YunShen_spouse_y2": "It would be very interesting if people found human eyeballs or severed limbs while eating.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "YunShen 89 21 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "YunShen 89 21 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "Entries": {
+                "YunShen": "Since this is your first time attending a festival like this, keep it fresh, after all, every year after that will be similar.",
+                "YunShen_y2": "I usually have no interest in festivals like this, but I can't help but appear in the festival scene...#$b#The dreamy beauty of the jellyfish and the happy townspeople, what do these scenes have to do with me? It just adds to my loneliness.",
+                "YunShen_spouse": "Well, it's nice to spend this kind of holiday with you occasionally.$h#$b#Wait, where are you going? Can't you just stay with me for a while...$s",
+                "YunShen_spouse_y2": "Nothing happened to me last year, and I think it will be the same this year.#$b#…But with you by my side, all this boring stuff seems to make sense.$l"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "YunShen 40 72 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "YunShen 40 72 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "Entries": {
+                "YunShen": "That person is still insisting on using this wheel this year? After all, the probability of the wheel spinning green is so high.$u#$b#I understand, so he is doing charity, which really makes it difficult for his good intentions.$h",
+                "YunShen_y2": "Great philanthropists never stop doing charity, which is really admirable~$h",
+                "YunShen_spouse": "Hehe, we will definitely win this exhibition competition today!$h#$b#Why am I so sure? Of course it's because you are very capable.$h#$b#...After all, I have witnessed your hard work. How could someone as hard-working as you be unable to win?$l"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "YunShen 37 14 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "YunShen 37 14 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "Entries": {
+                "YunShen": "Wow, this looks even better than my red mushroom stew, I wonder how amazing it tastes.$h",
+                "YunShen_y2": "I have tasted this pot of soup and it is actually not bad.#$b#It is just a burning sensation in the throat, constant cold sweats, a burning stomach, accompanied by severe pain, forced vomiting, and blurred consciousness.$h",
+                "YunShen_spouse": "*Touches his neck*Honey, please help me sew the seams when you get home today.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "YunShen 100 31 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "YunShen 100 31 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "Entries": {
+                "YunShen": "It's so nice...#$b#! ?$u#$b#@When did you come?$s#$b#...Never mind, happy holidays, happy happy, happy happy happy.$h",
+                "YunShen_y2": "OK, you've talked to me, now go talk to someone else, after all, that's what you always do, right?$h",
+                "YunShen_spouse": "*yawn*Go have fun, I'll be right here.$h"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "YunShen 16 66 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "YunShen 16 66 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "Entries": {
+                "YunShen": "? What are you talking about? Of course I'm cold when I'm dressed like this. The temperature in my house is like spring all year round. I'm almost freezing to death after going out.$s#$b#But let me tell you first, don't be so surprised when girls wear short skirts and shorts in winter, because there is a thing in the world called bare legs artifact, which is flesh-colored cotton pants with velvet and thickness.$h",
+                "YunShen_y2": "Who is my mysterious friend? Huh, who knows?$h#$b#...This is for you. [64]#$b#Why should I give you this? Huh, who knows?$h",
+                "YunShen_spouse": "I love you@...$l#$b#...How is it? Are you disgusted by me? Haha~$h#$b#Why are you looking at me like this...What is this bad feeling...$u",
+                "YunShen_spouse_y2": "I started to worry when I thought about you giving gifts to others.$h#$b#After all, you are so good at choosing gifts that it is not surprising that you have left seeds of admiration in someone's heart.$h"
+            }
+        }
+    ]
+}
